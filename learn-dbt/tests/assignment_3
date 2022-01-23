@@ -1,0 +1,4 @@
+select
+  sum(c_acctbal) as sum_for_test
+from {{ ref('playing_with_tests') }}
+having sum(c_acctbal) > 10000000

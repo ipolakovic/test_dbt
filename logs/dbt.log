@@ -1,0 +1,79 @@
+
+
+============================== 2022-01-21 10:30:32.786937 | 8e68679d-aa5c-4d2a-806b-4848f0985012 ==============================
+10:30:32.786937 [info ] [MainThread]: Running with dbt=1.0.1
+10:30:32.787127 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/ivan.polakovic/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name='learn-dbt', skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+10:30:32.787203 [debug] [MainThread]: Tracking: tracking
+10:30:32.797694 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076211f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107621bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107621970>]}
+10:30:32.798643 [debug] [MainThread]: Starter project path: /opt/homebrew/Cellar/dbt-snowflake/1.0.0_1/libexec/lib/python3.9/site-packages/dbt/include/starter_project
+10:30:47.222565 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075f76a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075f79d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075f7af0>]}
+
+
+============================== 2022-01-21 10:34:28.706489 | db6c78c3-7f63-4f23-b70a-bdf3ae9175b2 ==============================
+10:34:28.706489 [info ] [MainThread]: Running with dbt=1.0.1
+10:34:28.707429 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/ivan.polakovic/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name='learn-dbt', skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+10:34:28.707506 [debug] [MainThread]: Tracking: tracking
+10:34:28.717060 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1044c9be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1044c97c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1044c9100>]}
+10:34:28.717931 [debug] [MainThread]: Starter project path: /opt/homebrew/Cellar/dbt-snowflake/1.0.0_1/libexec/lib/python3.9/site-packages/dbt/include/starter_project
+10:37:16.108329 [info ] [MainThread]: Profile learn-dbt written to /Users/ivan.polakovic/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+10:37:16.109360 [info ] [MainThread]: 
+Your new dbt project "learn-dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+10:37:16.109957 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1044a66a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1044a65e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1044a67f0>]}
+
+
+============================== 2022-01-21 10:37:43.718985 | 40da2606-5346-46d9-96b9-ca3ee078c148 ==============================
+10:37:43.718985 [info ] [MainThread]: Running with dbt=1.0.1
+10:37:43.719297 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/ivan.polakovic/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name='learn-dbt', skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+10:37:43.719374 [debug] [MainThread]: Tracking: tracking
+10:37:43.730002 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b79a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b79640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b79a30>]}
+10:37:43.730891 [debug] [MainThread]: Starter project path: /opt/homebrew/Cellar/dbt-snowflake/1.0.0_1/libexec/lib/python3.9/site-packages/dbt/include/starter_project
+10:37:57.402332 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b3bd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b30cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b30c10>]}
+
+
+============================== 2022-01-21 10:38:01.096284 | 048f8420-6520-4974-9330-9be872c8c84a ==============================
+10:38:01.096284 [info ] [MainThread]: Running with dbt=1.0.1
+10:38:01.096472 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/ivan.polakovic/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name='learn-dbt', skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+10:38:01.096545 [debug] [MainThread]: Tracking: tracking
+10:38:01.107080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103c165b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103c160a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103c16b80>]}
+10:38:01.107831 [info ] [MainThread]: A project called learn-dbt already exists here.
+10:38:01.108025 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103c167c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103c16820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103c0e130>]}
+
+
+============================== 2022-01-21 10:38:17.985880 | 583c0159-6895-4125-8350-ace9a9d0ab12 ==============================
+10:38:17.985880 [info ] [MainThread]: Running with dbt=1.0.1
+10:38:17.986067 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/ivan.polakovic/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name='learn-dbt', skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+10:38:17.986148 [debug] [MainThread]: Tracking: tracking
+10:38:17.996449 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060095e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106009820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106009700>]}
+10:38:17.997246 [debug] [MainThread]: Starter project path: /opt/homebrew/Cellar/dbt-snowflake/1.0.0_1/libexec/lib/python3.9/site-packages/dbt/include/starter_project
+10:39:52.685045 [info ] [MainThread]: Profile learn-dbt written to /Users/ivan.polakovic/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+10:39:52.686019 [info ] [MainThread]: 
+Your new dbt project "learn-dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+10:39:52.687104 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105fe69d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105fe64c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105fe6580>]}
